@@ -1,0 +1,68 @@
+h1,h2{
+  text-align: center;
+}
+
+h1{
+  font-family: Stencil Std, fantasy;
+}
+img{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width:30%;
+}
+
+p{
+  font-family: fantasy;
+}
+
+.caption{
+  text-align: center;
+}
+
+.beg div{
+  display: none;
+}
+.beg:hover{
+  background-color:#EBF5FB;
+}
+.beg:hover div{
+  display:block;
+}
+
+.beg h2{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color:#3498DB;
+  font-size: 150%;
+}
+
+.med div{
+  display: none;
+}
+.med:hover{
+  background-color:#D5F5E3;
+}
+.med:hover div{
+  display:block;
+}
+.med h2{
+  font-family: Verdana, sans-serif;
+  color:#2ECC71;
+  font-size: 150%;
+}
+
+.exp div{
+  display: none;
+}
+.exp:hover{
+  background-color:#FDEDEC; 
+}
+.exp:hover div{
+  display:block;
+}
+
+.exp h2{
+  font-family: Arial Narrow, sans-serif;
+  color:#E74C3C;
+  font-size: 150%;
+}
