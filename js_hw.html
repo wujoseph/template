@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>109306042</title>
+</head>
+<body>
+	<script>
+		var rand = Math.floor((Math.random()*10)+1);
+		while(true){
+			var input = window.prompt("guess a number from 1 to 10");
+			if(input == rand){
+				document.write("<a style='font-size:1000%;color:white'>The answer is "+input+" You win!!!</a>");
+				document.body.style.backgroundColor="black";
+				break;
+			}
+
+		}
+	</script>
+
+
+</body>
+</html>
